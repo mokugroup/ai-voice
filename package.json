@@ -1,0 +1,20 @@
+{
+  "name": "moku-digital-ai-voice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:web": "node web-server.mjs"
+  },
+  "dependencies": {
+    "@livekit/agents": "^1.4.5",
+    "@livekit/agents-plugin-deepgram": "^1.4.5",
+    "@livekit/agents-plugin-openai": "^1.4.5",
+    "@livekit/agents-plugin-silero": "^1.4.5",
+    "dotenv": "^16.4.5",
+    "edge-tts": "^1.0.1",
+    "livekit-client": "^2.15.13",
+    "livekit-server-sdk": "^2.15.4",
+    "ws": "^8.18.0"
+  }
+}
